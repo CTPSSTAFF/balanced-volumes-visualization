@@ -35,7 +35,7 @@ The schema of the 'wireframe and volumes' CSV files that drive the visualization
 | peak_yyyy_8_to_9_am | Balanced volume between 8:00 a.m. to 9:00 a.m. in year 'yyyy' |
 | peak_yyyy_9_to_10_am | Balanced volume between 9:00 a.m. to 10:00 a.m. in year 'yyyy' |
 | peak_yyyy_3_to_4_pm | Balanced volume between 3:00 p.m. to 4:00 p.m. in ear 'yyyy' |
-| peak_yyyy_4_to_5_pm< | Balanced volume between 4:00 p.m. to 5:00 p.m. in year 'yyyy' |
+| peak_yyyy_4_to_5_pm | Balanced volume between 4:00 p.m. to 5:00 p.m. in year 'yyyy' |
 | peak_yyyy_5_to_6_pm | Balanced volume between 5:00 p.m. to 6:00 p.m. in year 'yyyy' |
 | peak_yyyy_6_to_7_pm | Balanced volume between 6:00 p.m. to 7:00 p.m. in year 'yyyy' |
 | cum_yyyy_6_to_9_am | Balanced volume in morning peak period (6:00 a.m. to 9:00 a.m.) in year 'yyyy' |
