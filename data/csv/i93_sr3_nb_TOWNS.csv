@@ -1,0 +1,17 @@
+unique_id,coord,town_before,town_after
+boundary_i93_nb_580,60,Tewksbury,Wilmington
+boundary_i93_nb_490,1110,Wilmington,Woburn
+boundary_i93_nb_470,1360,Woburn,Reading
+boundary_i93_nb_440,1735,Reading,Stoneham
+boundary_i93_nb_430,1860,Stoneham,Woburn
+boundary_i93_nb_410,2110,Woburn,Stoneham
+boundary_i93_nb_390,2360,Stoneham,Medford
+boundary_i93_nb_320,3210,Medford,Somerville
+boundary_i93_nb_300,3460,Somerville,Boston
+boundary_i93_nb_070,6550,Boston,Quincy
+boundary_sr3_nb_360,7250,Quincy,Braintree
+boundary_sr3_nb_320,7725,Braintree,Weymouth
+boundary_sr3_nb_290,8125,Weymouth,Hingham
+boundary_sr3_nb_270,8375,Hingham,Rockland
+boundary_sr3_nb_250,8625,Rockland,Norwell/Hanover
+boundary_sr3_nb_230,8875,Hanover/Norwell,Pembroke

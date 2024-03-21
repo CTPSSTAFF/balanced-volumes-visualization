@@ -1,0 +1,96 @@
+data_id,massdot_id,description,x1,x2,y1,y2,type,showdesc,restriction,nlanes,yr_1999,yr_2010,backbone_rte,awdt_2019,awdt_2010
+i90_wb_470, ,I-90 westbound |between Interchange 3 |and the NY state line,10,110,120,120,main,0,none,2,1,1,i90_wb,10200,-9999
+i90_wb_r_460,R11569,Interchange 3 |(old Interchange 1) |off-ramp to West Stockbridge,110,85,120,90,ramp_off_above,1,none,1,1,1,i90_wb,400,-9999
+i90_wb_460, ,I-90 westbound between Interchanges 10 and 3,110,410,120,120,main,0,none,2,1,1,i90_wb,10600,-9999
+i90_wb_r_450,R11568,Interchange 10 |(old Interchange 2) |on-ramp from Lee,435,410,90,120,ramp_on_above,1,none,1,1,1,i90_wb,1800,-9999
+i90_wb_450, ,I-90 westbound between Interchange 10 off- and on-ramps,410,610,120,120,main,0,none,2,1,1,i90_wb,8800,-9999
+i90_wb_r_440,R11567,Interchange 10 |(old Interchange 2) |off-ramp to Lee,610,585,120,90,ramp_off_above,1,none,1,1,1,i90_wb,4600,-9999
+i90_wb_440, ,I-90 westbound between Interchanges 41 and 10,610,910,120,120,main,0,none,2,1,1,i90_wb,13400,-9999
+i90_wb_r_430,R11566,Interchange 41 |(old Interchange 3) |on-ramp from Westfield,935,910,90,120,ramp_on_above,1,none,1,1,1,i90_wb,1100,-9999
+i90_wb_430, ,I-90 westbound between Interchange 41 off- and on-ramps,910,1110,120,120,main,0,none,2,1,1,i90_wb,12300,-9999
+i90_wb_r_420,R11565,Interchange 41 |(old Interchange 3) |off-ramp to Westfield,1110,1085,120,90,ramp_off_above,1,none,1,1,1,i90_wb,11700,-9999
+i90_wb_420, ,I-90 westbound between Interchanges 45 and 41,1110,1410,120,120,main,0,none,2,1,1,i90_wb,24000,-9999
+i90_wb_r_410,R11564,Interchange 45 |(old Interchange 4) |on-ramp from I-91,1435,1410,90,120,ramp_on_above,1,none,1,1,1,i90_wb,11300,-9999
+i90_wb_410, ,I-90 westbound between Interchange 45 off- and on-ramps,1410,1610,120,120,main,0,none,2,1,1,i90_wb,12700,-9999
+i90_wb_r_400,R11563,Interchange 45 |(old Interchange 4) |off-ramp to I-91,1610,1585,120,90,ramp_off_above,1,none,1,1,1,i90_wb,11500,-9999
+i90_wb_400, ,I-90 westbound between Interchanges 49 and 45,1610,1910,120,120,main,0,none,2,1,1,i90_wb,24200,-9999
+i90_wb_r_390,R11562,Interchange 49 |(old Interchange 5) |on-ramp from Chicopee,1935,1910,90,120,ramp_on_above,1,none,1,1,1,i90_wb,5200,-9999
+i90_wb_390, ,I-90 westbound between Interchange 49 off- and on-ramps,1910,2110,120,120,main,0,none,2,1,1,i90_wb,19000,-9999
+i90_wb_r_380,R11561,Interchange 49 |(old Interchange 5) |off-ramp to Chicopee,2110,2085,120,90,ramp_off_above,1,none,1,1,1,i90_wb,5500,-9999
+i90_wb_380, ,I-90 westbound between Interchanges 51 and 49,2110,2410,120,120,main,0,none,2,1,1,i90_wb,24500,-9999
+i90_wb_r_370,R11560,Interchange 51 |(old Interchange 6) |on-ramp from I-291,2435,2410,90,120,ramp_on_above,1,none,1,1,1,i90_wb,5500,-9999
+i90_wb_370, ,I-90 westbound between Interchange 51 off- and on-ramps,2410,2610,120,120,main,0,none,2,1,1,i90_wb,19000,-9999
+i90_wb_r_360,R11559,Interchange 51 |(old Interchange 6) |off-ramp to I-291,2610,2585,120,90,ramp_off_above,1,none,1,1,1,i90_wb,13000,-9999
+i90_wb_360, ,I-90 westbound between Interchanges 54 and 51,2610,2910,120,120,main,0,none,2,1,1,i90_wb,32000,-9999
+i90_wb_r_350,R11558,Interchange 54 |(old Interchange 7) |on-ramp from Ludlow,2935,2910,90,120,ramp_on_above,1,none,1,1,1,i90_wb,6500,-9999
+i90_wb_350, ,I-90 westbound between Interchange 54 off- and on-ramps,2910,3110,120,120,main,0,none,2,1,1,i90_wb,25500,-9999
+i90_wb_r_340,R11557,Interchange 54 |(old Interchange 7) |off-ramp to Ludlow,3110,3085,120,90,ramp_off_above,1,none,1,1,1,i90_wb,2500,-9999
+i90_wb_340, ,I-90 westbound between Interchanges 63 and 54,3110,3410,120,120,main,0,none,2,1,1,i90_wb,28000,-9999
+i90_wb_r_330,R11556,Interchange 63 |(old Interchange 8) |on-ramp from Palmer,3435,3410,90,120,ramp_on_above,1,none,1,1,1,i90_wb,8000,-9999
+i90_wb_330, ,I-90 westbound between Interchange 63 off- and on-ramps,3410,3610,120,120,main,0,none,2,1,1,i90_wb,20000,-9999
+i90_wb_r_320,R11555,Interchange 63 |(old Interchange 8) |off-ramp to Palmer,3610,3585,120,90,ramp_off_above,1,none,1,1,1,i90_wb,3500,-9999
+i90_wb_320, ,I-90 westbound between Interchanges 78 and 63,3610,3910,120,120,main,0,none,2,1,1,i90_wb,23500,-9999
+i90_wb_r_310, ,Interchange 78 |(old Interchange 9) |on-ramp from I-84,3935,3910,90,120,ramp_on_above,1,none,1,1,1,i90_wb,2500,-9999
+i90_wb_310, ,I-90 westbound between Interchange 78 off- and on-ramps,3910,4110,120,120,main,0,none,2,1,1,i90_wb,21000,-9999
+i90_wb_r_300, ,Interchange 78 |(old Interchange 9) |off-ramp to I-84,4110,4085,120,90,ramp_off_above,1,none,2,1,1,i90_wb,28000,-9999
+i90_wb_300, ,I-90 westbound between Interchanges 90 and 78,4110,4410,120,120,main,0,none,3,1,1,i90_wb,49000,-9999
+i90_wb_r_290,R11553,Interchange 90 |(old Interchange 10) |on-ramp from I-290/I-395,4435,4410,90,120,ramp_on_above,1,none,1,1,1,i90_wb,16000,-9999
+i90_wb_290, ,I-90 westbound between Interchange 90 off- and on-ramps,4410,4610,120,120,main,0,none,3,1,1,i90_wb,33000,-9999
+i90_wb_r_280,R11552,Interchange 90 |(old Interchange 10) |off-ramp to I-290/I-395,4610,4585,120,90,ramp_off_above,1,none,1,1,1,i90_wb,12000,-9999
+i90_wb_280, ,I-90 westbound between Interchanges 94 and 90,4610,4910,120,120,main,0,none,3,1,1,i90_wb,45000,-9999
+i90_wb_r_270,R11551,Interchange 94 |(old Interchange 10A) |on-ramp from Route 146,4935,4910,90,120,ramp_on_above,1,none,1,1,1,i90_wb,6000,-9999
+i90_wb_270, ,I-90 westbound between Interchange 94 off- and on-ramps,4910,5110,120,120,main,0,none,3,1,1,i90_wb,39000,-9999
+i90_wb_r_260,R11550,Interchange 94 |(old Interchange 10A) |off-rampto Route 146,5110,5085,120,90,ramp_off_above,1,none,1,1,1,i90_wb,9000,-9999
+i90_wb_260, ,I-90 westbound between Interchanges 96 and 94,5110,5410,120,120,main,0,none,3,1,1,i90_wb,48000,-9999
+i90_wb_r_250,R11549,Interchange 96 |(old Interchange 11) |on-ramp from Millbury,5435,5410,90,120,ramp_on_above,1,none,1,1,1,i90_wb,3000,-9999
+i90_wb_250, ,I-90 westbound between Interchange 96 off- and on-ramps,5410,5610,120,120,main,0,none,3,1,1,i90_wb,45000,-9999
+i90_wb_r_240,R11548,Interchange 96 |(old Interchange 11) |off-ramp to Millbury,5610,5585,120,90,ramp_off_above,1,none,1,1,1,i90_wb,6000,-9999
+i90_wb_240, ,I-90 westbound between Interchanges 107 and 96,5610,5910,120,120,main,0,none,3,1,1,i90_wb,51000,49500
+i90_wb_r_230,R11547,Interchange 107 |(old Interchange 11A) |on-ramp from I-495,5935,5910,90,120,ramp_on_above,1,none,1,1,1,i90_wb,17000,15000
+i90_wb_230, ,I-90 westbound between Interchange 107 off- and on-ramps,5910,6210,120,120,main,0,none,3,1,1,i90_wb,34000,34500
+i90_wb_r_220,R11546,Interchange 107 |(old Interchange 11A) |off-ramp to I-495,6210,6185,120,90,ramp_off_above,1,none,2,1,1,i90_wb,19500,20000
+i90_wb_220, ,I-90 westbound between Interchanges 111 and 107,6210,6410,120,120,main,0,none,3,1,1,i90_wb,53500,54500
+i90_wb_r_210,R11545,Interchange 111 |(old Interchange 12) |on-ramp from Framingham/SR-9,6435,6410,90,120,ramp_on_above,1,none,1,1,1,i90_wb,6000,4500
+i90_wb_210, ,I-90 westbound between Interchange 111 off- and on-ramps,6410,6710,120,120,main,0,none,3,1,1,i90_wb,47500,50000
+i90_wb_r_200,R11544,Interchange 111 |(old Interchange 12) |off-ramp to Framingham/SR-9,6710,6685,120,90,ramp_off_above,1,none,1,1,1,i90_wb,14500,12500
+i90_wb_200, ,I-90 westbound between Interchanges 117 and 111,6710,6910,120,120,main,0,none,3,1,1,i90_wb,62000,62500
+i90_wb_r_190,R50110,Interchange 117 |(old Interchange 13) |on-ramp from Natick/SR-30,6935,6910,90,120,ramp_on_above,1,none,1,1,1,i90_wb,9000,9500
+i90_wb_190, ,I-90 westbound between Interchange 117 off- and on-ramps,6910,7210,120,120,main,0,none,3,1,1,i90_wb,53000,53000
+i90_wb_r_180,R50109,Interchange 117 |(old Interchange 13) |off-ramp to Natick/SR-30,7210,7185,120,90,ramp_off_above,1,none,2,1,1,i90_wb,18000,20000
+i90_wb_180, ,I-90 westbound between Interchanges 123 and 117,7210,7410,120,120,main,0,none,3,1,1,i90_wb,71000,73000
+i90_wb_r_170,R11541,Interchange 123 |(old Interchange 14) |on-ramp from I-95 and local roads,7435,7410,90,120,ramp_on_above,1,none,2,1,1,i90_wb,35000,36000
+i90_wb_170, ,I-90 westbound between Interchange 123 off- and on-ramps,7410,7710,120,120,main,0,none,3,1,1,i90_wb,36000,37000
+i90_wb_r_160,R50113,Interchange 123 off-ramp | to I-95 and local roads,7710,7685,120,90,ramp_off_above,1,none,2,1,1,i90_wb,26000,23000
+i90_wb_160, ,I-90 westbound between Interchanges 125 and 123,7710,8010,120,120,main,0,none,3,1,1,i90_wb,62000,60000
+i90_wb_r_150,R11743,Interchange 125 |(old Interchange 16) |off-ramp to  West Newton/SR-16,8010,7985,120,90,ramp_off_above,1,none,1,1,1,i90_wb,11000,11000
+i90_wb_150, ,I-90 westbound between Interchanges 128 and 125,8010,8210,120,120,main,0,none,3,1,1,i90_wb,73000,71000
+i90_wb_r_140,R11742,Interchange 128 |(old Interchange 17) |on-ramp from Newton Corner,8235,8210,90,120,ramp_on_above,1,none,1,1,1,i90_wb,17500,17000
+i90_wb_140, ,I-90 westbound between Interchange 128 off- and on-ramps,8210,8510,120,120,main,0,none,3,1,1,i90_wb,55500,54000
+i90_wb_r_130,R11741,Interchange 128 |(old Interchange 17) |off-ramp to Newton Corner,8510,8485,120,90,ramp_off_above,1,none,1,1,1,i90_wb,18500,14000
+i90_wb_130, ,I-90 westbound between Interchanges 131 and 128,8510,8710,120,120,main,0,none,4,1,1,i90_wb,74000,68000
+i90_wb_r_120,R11740,Interchange 131 |(old Interchange 18) |on-ramp from Cambridge St./Allston-Brighton,8735,8710,90,120,ramp_on_above,1,none,2,1,1,i90_wb,15000,15000
+i90_wb_120, ,I-90 westbound between Interchange 131 off- and on-ramps,8710,9010,120,120,main,0,none,3,1,1,i90_wb,59000,53000
+i90_wb_r_110,R11739,Interchange 131 off-ramp |(old Interchange 20)| to Cambridge St./Allston-Brighton,9010,8985,120,90,ramp_off_above,1,none,2,1,1,i90_wb,23000,15000
+i90_wb_110, ,I-90 westbound between Massachusetts Avenue on-ramp and interchange 131,9010,9210,120,120,main,0,none,4,1,1,i90_wb,82000,68000
+i90_wb_r_100,R11738,On-ramp |from Massachusetts Avenue,9235,9210,90,120,ramp_on_above,1,none,1,1,1,i90_wb,8000,6500
+i90_wb_100, ,I-90 westbound between Interchange 133 and Massachusetts Avenue on-ramp,9210,9410,120,120,main,0,none,4,1,1,i90_wb,74000,61500
+i90_wb_r_090,R11737,Interchange 133 on-ramp |from Prudential Center/Copley Square,9435,9410,90,120,ramp_on_above,1,none,1,1,1,i90_wb,6000,5500
+i90_wb_090, ,I-90 westbound between former Clarendon on-ramp and Interchange 133,9410,9610,120,120,main,0,none,4,1,1,i90_wb,68000,55000
+i90_wb_r_085,R11736,On-ramp from |Clarendon St. (closed 2019),9635,9610,90,120,ramp_on_above,1,none,1,1,1,i90_wb,0,1000
+i90_wb_085, ,I-90 westbound between  Arlington St. and Clarendon St.,9610,9810,120,120,main,0,none,3,1,1,i90_wb,68000,56000
+i90_wb_r_080,R11735,On-ramp from |Arlington Street,9835,9810,90,120,ramp_on_above,1,none,1,1,1,i90_wb,5000,6000
+i90_wb_080, ,I-90 westbound between Interchange 134 and Arlington St. on-ramp,9810,10010,120,120,main,0,none,3,1,1,i90_wb,63000,50000
+i90_wb_r_070,R12123,Interchange 134 |(old Interchange 24) |on-ramp from I-93 SB and local roads,10035,10010,90,120,ramp_on_above,1,none,1,1,1,i90_wb,20000,16000
+i90_wb_070, ,I-90 westbound between Interchange 134 on-ramp from I-93 NB and on-ramp from I-93 SB,10010,10310,120,120,main,0,none,2,1,1,i90_wb,43000,34000
+i90_wb_r_060,R12086,Interchange 134 |(old Interchange 24) |on-ramp from I-93 NB and local roads,10335,10310,90,120,ramp_on_above,1,none,1,1,1,i90_wb,17000,15500
+i90_wb_060, ,I-90 westbound between bus terminal off-ramp and Interchange 134,10310,10610,120,120,main,0,none,2,1,1,i90_wb,26000,18500
+i90_wb_r_050,R11734,Off-ramp | to South Station bus terminal,10610,10585,120,90,ramp_off_above,1,none,1,1,1,i90_wb,600,500
+i90_wb_050, ,I-90 westbound between Interchange 135 on-ramp from Seaport and off-ramp to bus terminal,10610,10810,120,120,main,0,none,2,1,1,i90_wb,26600,19000
+i90_wb_r_040,R11733,Interchange 135 |(old Interchange 25) |on-ramp from Seaport,10835,10810,90,120,ramp_on_above,1,none,1,1,1,i90_wb,7000,5500
+i90_wb_r_030, ,Interchange 135 |(old Interchange 25) |off-ramp to Seaport and I-93 NB,11110,11085,120,90,ramp_off_above,1,none,1,1,1,i90_wb,32000,27000
+i90_wb_040, ,I-90 westbound between Interchange 135 off- and on-ramps,10810,11110,120,120,main,0,none,2,1,1,i90_wb,19600,13500
+i90_wb_030, ,Interchange 135 |(old Interchange 25) |off-ramp to Seaport and I-93 NB,11110,11310,120,120,main,0,none,1,1,1,i90_wb,51600,40500
+i90_wb_r_020,R11722,Interchange 137 |(old Interchange 26) |on-ramp from Logan Airport,11335,11310,90,120,ramp_on_above,1,none,2,1,1,i90_wb,29600,24000
+i90_wb_020, ,I-90 westbound between Interchange 137 off- and on-ramps,11310,11610,120,120,main,0,none,2,1,1,i90_wb,22000,16500
+i90_wb_r_010,R11721,Interchange 137 |(old Interchange 26) |off-ramp to Logan Airport,11610,11585,120,90,ramp_off_above,1,none,1,1,1,i90_wb,7000,10500
+i90_wb_010, ,I-90 westbound east of Interchange 137,11610,11810,120,120,main,0,none,2,1,1,i90_wb,29000,27000
