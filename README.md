@@ -26,8 +26,8 @@ The schema of the 'wireframe and volumes' CSV files that drive the visualization
 | description | Description of road segment or ramp |
 | nlanes | Number of lanes in road segment or ramp |
 | yr_1999 | 1 = segment was present in 1999; 0 = segment was not present in 1999 |
+| yr_2007 | 1 = segment was present in 2007; 0 = segment was not present in 2007 |
 | yr_2010 | 1 = segment was present in 2010; 0 = segment was not present in 2010 |
-| yr_2018 | 1 = segment was present in 2018; 0 = segment was not present in 2018 |
 | yr_2019 | 1 = segment was present in 2019; 0 = segment was not present in 2019 |
 | awdt_yyyy | Balanced average weekday daily traffic volume in year 'yyyy' |
 | peak_yyyy_6_to_7_am | Balanced volume between 6:00 a.m. to 7:00 a.m. in year 'yyyy' |
@@ -42,6 +42,23 @@ The schema of the 'wireframe and volumes' CSV files that drive the visualization
 | cum_yyyy_3_to_6_pm | Balanced volume in afternoon peak period (3:00 p.m. to 6:00 p.m.) in year 'yyyy' |
 
 A value of -9999 in any field indicates 'NO DATA' for that field.
+
+Note: Balanced volumes were __not__ produced for all routes within the MPO or across 
+tht state \(depending upon which agency funded the work\) for every year. For any given
+route, the coverage from year-to-year was 'spotty', with gaps of 10 years \(sometimes more \)
+between each set of blanced volume data. The direct consequence of this is that the 
+schema of the CSV files varied from route to route, depending upon the years for 
+which balanced volume data was produced for that route. Hence the use of 
+the term 'generic schema', above.
+
+The years for which balanced volume data was available for and included in the app 
+for the routes currently supported by the app is as follows:
+
+| Route | 1999 | 2007 | 2010 | 2019 |
+| --- | --- | --- | --- | --- |
+| I-93/SR-3 | yes | no | yes | yes |
+| US-1 | no | yes | no | yes |
+| I-90 | no | no | yes | yes |
 
 This application relies upon the following libraries:
 1. jQuery version 3.7.1 (see https://jquery.com/)
