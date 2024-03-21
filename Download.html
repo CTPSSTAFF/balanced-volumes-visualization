@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Download Data</title>
+
+<style type="text/css">
+
+#bigbox {
+    border: 3px ridge #b22400; 
+    padding: 25px;
+    margins: 1px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #1d52c2;
+	width: 600px;
+	margin: 0 40px 0 0;	
+}
+h3 {
+    color: #b22400;
+    border-bottom: 1px solid #1d52c2;
+	overflow: hidden;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	color: #000000;
+}
+a {
+    text-decoration: none;
+}
+a.button {    
+    border: solid 1px #1d52c2;
+    background-color: #1d52c2;
+    padding: 2px 2px 2px 2px;
+    color: #fff;
+    
+}
+a.button:hover {
+    background-color: #fff;
+    color: #1d52c2;
+}
+		table {
+			border-top: 3px double black;       /* TEMP */
+			border-bottom: 3px double black;
+            width: 100%;
+		}
+        thead {
+            border-bottom: 3px double black;
+        }
+		tr {
+			font-size: 0.9em;
+		}
+       .tr_header {
+            font-size: 1.1em;
+        }
+		td {
+			padding-left: 15px;
+		}
+        th {
+			padding-left: 15px;
+            text-align: left;
+		}
+</style>
+
+<script TYPE="text/javascript">
+function targetopener(mylink, closeme, closeonly)
+{
+if (! (window.focus && window.opener))return true;
+window.opener.focus();
+if (! closeonly)window.opener.location.href=mylink.href;
+if (closeme)window.close();
+return false;
+}
+</script>
+</head>
+
+<body>
+<div id="bigbox">
+
+    <div id="closeLink">
+        <a href="index.html" class="button"
+        onclick="return targetopener(this,true,true)">Close this window</a>   
+    </div>			<!--   END OF CLOSELINK  -->
+
+    <h3>Download Data</h3>
+    <p>
+    Download balanced volume data in Excel spreadsheet (.xls) format:
+        <ul>
+			<li>I-93/SR-3</li>
+				<ul>
+					<li>
+						<a href="https://www.ctps.org/pub/Balanced_Volumes/i93_sr3_nb_balanced_volumes.xls">Northbound</a>
+					</li>
+					<li>
+						<a href="https://www.ctps.org/pub/Balanced_Volumes/i93_sr3_sb_balanced_volumes.xls">Southbound</a>
+					</li>
+				</ul>
+			<li>US-1</li>
+				<ul>
+					<li>
+						<a href="https://www.ctps.org/pub/Balanced_Volumes/us1_nb_balanced_volumes.xls">Northbound</a>
+					</li>
+					<li>
+						<a href="https://www.ctps.org/pub/Balanced_Volumes/us1_sb_balanced_volumes.xls">Southbound</a>
+					</li>
+				</ul>
+			<li>I-90</li>
+				<ul>
+					<li>
+						<a href="https://www.ctps.org/pub/Balanced_Volumes/i90_eb_balanced_volumes.xls">Eastbound</a>
+					</li>
+					<li>
+						<a href="https://www.ctps.org/pub/Balanced_Volumes/i90_wb_balanced_volumes.xls">Westbound</a>
+					</li>
+				</ul>
+		</ul>
+    </p>
+    
+    <h3>Description of Spreadsheet Columns</h3>   
+    <p>      
+        <table>
+            <thead>
+                <tr class="tr_header">
+                    <th>Column Name</th> 
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>data_id</td> 
+                <td>Symbolic identifier of road segment or ramp</td>
+            </tr> 
+            <tr>
+                <td>description</td> 
+                <td>Description of road segment or ramp</td>
+            </tr> 
+            <tr>
+                <td>nlanes</td>
+                <td>Number of lanes in road segment or ramp</td>
+            </tr> 
+             <tr>
+                <td>yr_1999</td>
+                <td>1 = segment was present in 1999; 0 = segment was not present in 1999 [Note 1]</td>
+            </tr> 
+             <tr>
+                <td>yr_2010</td>
+                <td>1 = segment was present in 2010; 0 = segment was not present in 2010 [Note 1]</td>
+            </tr> 
+            <!-- 2019 -->
+           <tr>
+                <td>awdt_2019</td>
+                <td>Balanced average weekday daily traffic volume in 2019</td>
+            </tr>            
+            <tr>
+                <td>peak_2019_6_to_7_am</td>
+                <td>Balanced volume between 6:00 a.m. to 7:00 a.m. in 2019 [Note 1]</td>
+            </tr>   
+            <tr>
+                <td>peak_2019_7_to_8_am</td>
+                <td>Balanced volume between 7:00 a.m. to 8:00 a.m. in 2019 [Note 1]</td>
+            </tr>
+            <tr>
+                <td>peak_2019_8_to_9_am</td>
+                <td>Balanced volume between 8:00 a.m. to 9:00 a.m. in 2019 [Note 1]</td>
+            </tr>
+            <tr>
+                <td>peak_2019_9_to_10_am</td>
+                <td>Balanced volume between 9:00 a.m. to 10:00 a.m. in 2019 [Note 1]</td>
+            </tr>
+            <tr>
+                <td>peak_2019_3_to_4_pm</td>
+                <td>Balanced volume between 3:00 p.m. to 4:00 p.m. in 2019 [Note 1]</td>
+            </tr>           
+            <tr>
+                <td>peak_2019_4_to_5_pm</td>
+                <td>Balanced volume between 4:00 p.m. to 5:00 p.m. in 2019 [Note 1]</td>
+            </tr>
+            <tr>
+                <td>peak_2019_5_to_6_pm</td>
+                <td>Balanced volume between 5:00 p.m. to 6:00 p.m. in 2019 [Note 1]</td>
+            </tr>
+            <tr>
+                <td>peak_2019_6_to_7_pm</td>
+                <td>Balanced volume between 6:00 p.m. to 7:00 p.m. in 2019 [Note 1]</td>
+            </tr>
+            <tr>
+                <td>cum_2019_6_to_9_am</td>
+                <td>Balanced volume in morning peak period (6:00 a.m. to 9:00 a.m.) in 2019 [Note 1]/td>
+            </tr>
+            <tr>
+                <td>cum_2019_3_to_6_pm</td>
+                <td>Balanced volume in afternoon peak period (3:00 p.m. to 6:00 p.m.) in 2019 [Note 1]</td>
+            </tr>
+            <!-- 2010 -->
+            <tr>
+                <td>awdt_2010</td>
+                <td>Balanced average weekday daily traffic volume in 2010</td>
+            </tr>            
+            <tr>
+                <td>peak_2010_6_to_7_am</td>
+                <td>Balanced volume between 6:00 a.m. to 7:00 a.m. in 2010 [Note 1]</td>
+            </tr>   
+            <tr>
+                <td>peak_2010_7_to_8_am</td>
+                <td>Balanced volume between 7:00 a.m. to 8:00 a.m. in 2010 [Note 1] </td>
+            </tr>
+            <tr>
+                <td>peak_2010_8_to_9_am</td>
+                <td>Balanced volume between 8:00 a.m. to 9:00 a.m. in 2010 [Note 1] </td>
+            </tr>
+            <tr>
+                <td>peak_2010_9_to_10_am</td>
+                <td>Balanced volume between 9:00 a.m. to 10:00 a.m. in 2010 [Note 1] </td>
+            </tr>
+            <tr>
+                <td>peak_2010_3_to_4_pm</td>
+                <td>Balanced volume between 3:00 p.m. to 4:00 p.m. in 2010 [Note 1] </td>
+            </tr>           
+            <tr>
+                <td>peak_2010_4_to_5_pm</td>
+                <td>Balanced volume between 4:00 p.m. to 5:00 p.m. in 2010 [Note 1] </td>
+            </tr>            
+            <tr>
+                <td>peak_2010_5_to_6_pm</td>
+                <td>Balanced volume between 5:00 p.m. to 6:00 p.m. in 2010 [Note 1] </td>
+            </tr>           
+            <tr>
+                <td>peak_2010_6_to_7_pm</td>
+                <td>Balanced volume between 6:00 p.m. to 7:00 p.m. in 2010 [Note 1] </td>
+            </tr>  
+            <tr>
+                <td>cum_2010_6_to_9_am</td>
+                <td>Balanced volume in morning peak period (6:00 a.m. to 9:00 a.m.) in 2010 [Note 1] </td>
+            </tr>
+            <tr>
+                <td>cum_2010_3_to_6_pm</td>
+                <td>Balanced volume in afternoon peak period (3:00 p.m. to 6:00 p.m.) in 2010 [Note 1] </td>
+            </tr>       
+            <!-- 2007 -->
+			<tr>
+                <td>awdt_2007</td>
+                <td>Balanced average weekday daily traffic volume in 2007 [Note 2]</td>
+            </tr>            
+            <!-- 1999 -->
+           <tr>
+                <td>awdt_1999</td>
+                <td>Balanced average weekday daily traffic volume in 1999 [Note 1] </td>
+            </tr>
+            </tbody>
+         </table>
+    </p>
+	<h4>Notes</h4>
+	<ul>
+		<li>
+		<strong>Note 1:</strong>Column present only in I-90/SR-3 spreadsheets
+		</li>
+		<li>
+		<strong>Note 2:</strong>Column present only in US-1 spreadsheets
+		</li>
+	</ul>
+	
+    <p>
+    The data value -9999 indicates "NO DATA."
+    </p>
+    
+    <p>
+    Download spatial data in GeoJSON format:
+       <ul>
+            <li>
+                <a href="https://www.ctps.org/pub/Balanced_Volumes/i93_and_sr3_complete.geojson">I-93/SR-3 northbound and southbound</a>
+            </li>
+			<li>
+				<a href="https://www.ctps.org/pub/Balanced_Volumes/us1.geojson"> US-1 northbound and southbound</a>
+			</li>
+			<li>
+				<a href="https://www.ctps.org/pub/Balanced_Volumes/i90_complete.geojson"> I-90 eastbound and westbound</a> 
+			</li>
+        </ul>
+    </p>    
+            
+    <div id="closeLink2">
+        <a href="index.html" class="button"
+        onclick="return targetopener(this,true,true)">Close this window</a>   
+    </div>			<!--   END OF CLOSELINK2  -->
+
+</div>          <!--   END OF BIGBOX    -->
+
+</body>
+</html>
