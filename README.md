@@ -16,7 +16,7 @@ The balanced volume data for 2010, 2007 and 1999 was produced by Tom Lisco.
 The GeoJSON data for the geometry of:
 * I-93 and SR-3 within the MPO area,
 * a portion of US-1 within the MPO area, and
-* I-90 statewide
+* I-90 statewide  
 is found in the subdirectory __data/geojson__.
 
 This application relies upon the following libraries:
