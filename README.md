@@ -70,3 +70,8 @@ This application relies upon the following libraries:
 7. jquery.scrollTo.js version 2.1.2 (see http://flesler.blogspot.com/2007/10/jqueryscrollto.html)
 8. Google Maps JavaScript API version 3.x (see https://developers.google.com/maps/documentation/javascript/tutorial)
 9. ctpsGoogleMapsUtils.js version 2.0 (see https://github.com/bkrepp-ctps/ctpsGoogleMapsUtils)
+
+## Colophon
+Author: Ben Krepp (bkrepp@ctps.org)  
+Last revision: 22 March 2024  
+Location: Cyberspace
